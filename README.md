@@ -26,6 +26,8 @@ Info to know about connections to other servers: Remember to change the server y
 
 Info to know about editing the project: If you are editing the client or server file on hardware that only has toggle switches only, I recommend you use a telex system to edit those files.
 
+Info about servers: Custom servers need custom clients.
+
 
 <h3>Both of these links take you to The_Game_Of_Trusters Video Game adaptation</h3>
 
