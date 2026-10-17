@@ -5,6 +5,23 @@ A Multi-User Dungeon (MUD) Version of The_Game_Of_Trusters_Video_Game_Adaptation
 <p>Copyright (C) 2026 Daniel Hanrahan Tools and Games SPDX-License-Identifier: AGPL-3.0-or-later A copy of the GNU Affero General Public License is included in the file LICENSE; if not, see<https://www.gnu.org/licenses/>. Information just about the stuff in this software not covered by the GNU Affero General Public License version 3: This work is licensed under Attribution-ShareAlike 4.0 International</p>
 
 
+How to compile game with GForth(It acts like forth is an interpreted language):
+
+Client:
+<ol>
+<li>type this in terminal: cd into where The_Game_Of_Trusters_Multiplayer_Video_Game_Client.fs file is</li>
+<li>type this in terminal: gforth The_Game_Of_Trusters_Multiplayer_Video_Game_Client.fs -e "the_game-of-trusters-multiplayer-video-game-client"</li>
+</ol>
+
+Server:
+<ol>
+<li>type this in terminal: cd into where The_Game_Of_Trusters_Multiplayer_Video_Game_Server.fs file is</li>
+<li>type this in terminal: gforth The_Game_Of_Trusters_Multiplayer_Video_Game_Server.fs -e "the_game-of-trusters-multiplayer-video-game-server"</li>
+</ol>
+
+Info to know about connections to other servers: Remember to change the server you want to go to you have to change the IP address in client source code as whatever IP address you want and for the serial port to work you have to change it to whatever your OS/Bare Metal calls your serial port, You also do that in client source code.
+
+
 <h3>Both of these links take you to The_Game_Of_Trusters Video Game adaptation</h3>
 
 <a href="https://github.com/Daniel-Hanrahan-Tools-and-Games/The_Game_Of_Trusters">The_Game_Of_Trusters Repository Page</a>
