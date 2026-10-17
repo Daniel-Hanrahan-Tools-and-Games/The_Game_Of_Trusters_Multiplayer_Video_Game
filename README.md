@@ -5,6 +5,9 @@ A Multi-User Dungeon (MUD) Version of The_Game_Of_Trusters_Video_Game_Adaptation
 <p>Copyright (C) 2026 Daniel Hanrahan Tools and Games SPDX-License-Identifier: AGPL-3.0-or-later A copy of the GNU Affero General Public License is included in the file LICENSE; if not, see<https://www.gnu.org/licenses/>. Information just about the stuff in this software not covered by the GNU Affero General Public License version 3: This work is licensed under Attribution-ShareAlike 4.0 International</p>
 
 
+This game is written in Forth.
+
+
 How to compile game with GForth(It acts like forth is an interpreted language):
 
 Client:
@@ -20,6 +23,8 @@ Server:
 </ol>
 
 Info to know about connections to other servers: Remember to change the server you want to go to you have to change the IP address in client source code as whatever IP address you want and for the serial port to work you have to change it to whatever your OS/Bare Metal calls your serial port, You also do that in client source code.
+
+Info to know about editing the project: If you are editing the client or server file on hardware that only has toggle switches only, I recommend you use a telex system to edit those files.
 
 
 <h3>Both of these links take you to The_Game_Of_Trusters Video Game adaptation</h3>
